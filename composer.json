@@ -1,0 +1,17 @@
+{
+    "name": "geeksdevelop/public",
+    "description": "Project API podio",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Lobo",
+            "email": "wdevmaster732@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "sofadesign/limonade": "dev-master",
+        "podio-community/podio-php": "dev-master"
+    }
+}

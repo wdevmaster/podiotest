@@ -1,0 +1,175 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fee5e45d795a00cec9f9c2535965497a",
+    "packages": [
+        {
+            "name": "kint-php/kint",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kint-php/kint.git",
+                "reference": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kint-php/kint/zipball/335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
+                "reference": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "^4.0",
+                "seld/phar-utils": "^1.0",
+                "symfony/finder": "^2.0 || ^3.0 || ^4.0",
+                "vimeo/psalm": "^3.0"
+            },
+            "suggest": {
+                "ext-ctype": "Simple data type tests",
+                "ext-iconv": "Provides fallback detection for ambiguous legacy string encodings such as the Windows and ISO 8859 code pages",
+                "ext-mbstring": "Provides string encoding detection",
+                "kint-php/kint-js": "Provides a simplified dump to console.log()",
+                "kint-php/kint-twig": "Provides d() and s() functions in twig templates",
+                "symfony/polyfill-ctype": "Replacement for ext-ctype if missing",
+                "symfony/polyfill-iconv": "Replacement for ext-iconv if missing",
+                "symfony/polyfill-mbstring": "Replacement for ext-mbstring if missing"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "init.php"
+                ],
+                "psr-4": {
+                    "Kint\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Vollebregt",
+                    "homepage": "https://github.com/jnvsor"
+                },
+                {
+                    "name": "Rokas Šleinius",
+                    "homepage": "https://github.com/raveren"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/kint-php/kint/graphs/contributors"
+                }
+            ],
+            "description": "Kint - debugging tool for PHP developers",
+            "homepage": "https://kint-php.github.io/kint/",
+            "keywords": [
+                "debug",
+                "kint",
+                "php"
+            ],
+            "time": "2019-10-17T18:05:24+00:00"
+        },
+        {
+            "name": "podio-community/podio-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/podio-community/podio-php.git",
+                "reference": "8ad35a762574ace59dc13dd6779db0e346f6882a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/podio-community/podio-php/zipball/8ad35a762574ace59dc13dd6779db0e346f6882a",
+                "reference": "8ad35a762574ace59dc13dd6779db0e346f6882a",
+                "shasum": ""
+            },
+            "require": {
+                "kint-php/kint": "^3.2",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^4.0"
+            },
+            "suggest": {
+                "kdyby/curl-ca-bundle": "Improve security through providing current CA ROOT certificates bundle"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/",
+                    "lib/error/",
+                    "models/",
+                    "models/field/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Schreiber",
+                    "email": "daniel-schreiber@gmx.de"
+                },
+                {
+                    "name": "Andreas Haugstrup Pedersen",
+                    "email": "haugstrup@podio.com"
+                }
+            ],
+            "description": "PHP Client for Podio API",
+            "homepage": "http://github.com/podio/podio-php",
+            "keywords": [
+                "podio"
+            ],
+            "time": "2020-03-12T12:55:34+00:00"
+        },
+        {
+            "name": "sofadesign/limonade",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sofadesign/limonade.git",
+                "reference": "1bf0907b6e89997ebd3642476e15f2b7ce414ca0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sofadesign/limonade/zipball/1bf0907b6e89997ebd3642476e15f2b7ce414ca0",
+                "reference": "1bf0907b6e89997ebd3642476e15f2b7ce414ca0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/limonade.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "a PHP micro-framework",
+            "homepage": "https://github.com/sofadesign/limonade",
+            "keywords": [
+                "microframework"
+            ],
+            "time": "2018-09-10T15:10:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "sofadesign/limonade": 20,
+        "podio-community/podio-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
